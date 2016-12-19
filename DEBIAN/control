@@ -1,0 +1,9 @@
+Package: oracle-jdk8u112
+Version: 1.8u112
+Section: base
+Priority: optional
+Architecture: amd64
+Depends: 
+Maintainer: Anupam Basak <anupam.basak@gmail.com>
+Description: Oracle JDK 8 u112
+ Oracle JDK 8 update 112

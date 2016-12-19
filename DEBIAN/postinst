@@ -1,0 +1,49 @@
+#!/bin/bash
+
+/usr/sbin/update-alternatives --install /usr/bin/java java /opt/jdk1.8.0_112/bin/java 100 \
+  --slave /usr/bin/appletviewer appletviewer /opt/jdk1.8.0_112/bin/appletviewer \
+  --slave /usr/bin/extcheck extcheck /opt/jdk1.8.0_112/bin/extcheck \
+  --slave /usr/bin/idlj idlj /opt/jdk1.8.0_112/bin/idlj \
+  --slave /usr/bin/jar jar /opt/jdk1.8.0_112/bin/jar \
+  --slave /usr/bin/jarsigner jarsigner /opt/jdk1.8.0_112/bin/jarsigner \
+  --slave /usr/bin/javac javac /opt/jdk1.8.0_112/bin/javac \
+  --slave /usr/bin/javadoc javadoc /opt/jdk1.8.0_112/bin/javadoc \
+  --slave /usr/bin/javafxpackager javafxpackager /opt/jdk1.8.0_112/bin/javafxpackager \
+  --slave /usr/bin/javah javah /opt/jdk1.8.0_112/bin/javah \
+  --slave /usr/bin/javap javap /opt/jdk1.8.0_112/bin/javap \
+  --slave /usr/bin/javapackager javapackager /opt/jdk1.8.0_112/bin/javapackager \
+  --slave /usr/bin/java-rmi.cgi java-rmi.cgi /opt/jdk1.8.0_112/bin/java-rmi.cgi \
+  --slave /usr/bin/javaws javaws /opt/jdk1.8.0_112/bin/javaws \
+  --slave /usr/bin/jcmd jcmd /opt/jdk1.8.0_112/bin/jcmd \
+  --slave /usr/bin/jconsole jconsole /opt/jdk1.8.0_112/bin/jconsole \
+  --slave /usr/bin/jcontrol jcontrol /opt/jdk1.8.0_112/bin/jcontrol \
+  --slave /usr/bin/jdb jdb /opt/jdk1.8.0_112/bin/jdb \
+  --slave /usr/bin/jdeps jdeps /opt/jdk1.8.0_112/bin/jdeps \
+  --slave /usr/bin/jhat jhat /opt/jdk1.8.0_112/bin/jhat \
+  --slave /usr/bin/jinfo jinfo /opt/jdk1.8.0_112/bin/jinfo \
+  --slave /usr/bin/jjs jjs /opt/jdk1.8.0_112/bin/jjs \
+  --slave /usr/bin/jmap jmap /opt/jdk1.8.0_112/bin/jmap \
+  --slave /usr/bin/jmc jmc /opt/jdk1.8.0_112/bin/jmc \
+  --slave /usr/bin/jps jps /opt/jdk1.8.0_112/bin/jps \
+  --slave /usr/bin/jrunscript jrunscript /opt/jdk1.8.0_112/bin/jrunscript \
+  --slave /usr/bin/jsadebugd jsadebugd /opt/jdk1.8.0_112/bin/jsadebugd \
+  --slave /usr/bin/jstack jstack /opt/jdk1.8.0_112/bin/jstack \
+  --slave /usr/bin/jstat jstat /opt/jdk1.8.0_112/bin/jstat \
+  --slave /usr/bin/jstatd jstatd /opt/jdk1.8.0_112/bin/jstatd \
+  --slave /usr/bin/jvisualvm jvisualvm /opt/jdk1.8.0_112/bin/jvisualvm \
+  --slave /usr/bin/keytool keytool /opt/jdk1.8.0_112/bin/keytool \
+  --slave /usr/bin/native2ascii native2ascii /opt/jdk1.8.0_112/bin/native2ascii \
+  --slave /usr/bin/orbd orbd /opt/jdk1.8.0_112/bin/orbd \
+  --slave /usr/bin/pack200 pack200 /opt/jdk1.8.0_112/bin/pack200 \
+  --slave /usr/bin/policytool policytool /opt/jdk1.8.0_112/bin/policytool \
+  --slave /usr/bin/rmic rmic /opt/jdk1.8.0_112/bin/rmic \
+  --slave /usr/bin/rmid rmid /opt/jdk1.8.0_112/bin/rmid \
+  --slave /usr/bin/rmiregistry rmiregistry /opt/jdk1.8.0_112/bin/rmiregistry \
+  --slave /usr/bin/schemagen schemagen /opt/jdk1.8.0_112/bin/schemagen \
+  --slave /usr/bin/serialver serialver /opt/jdk1.8.0_112/bin/serialver \
+  --slave /usr/bin/servertool servertool /opt/jdk1.8.0_112/bin/servertool \
+  --slave /usr/bin/tnameserv tnameserv /opt/jdk1.8.0_112/bin/tnameserv \
+  --slave /usr/bin/unpack200 unpack200 /opt/jdk1.8.0_112/bin/unpack200 \
+  --slave /usr/bin/wsgen wsgen /opt/jdk1.8.0_112/bin/wsgen \
+  --slave /usr/bin/wsimport wsimport /opt/jdk1.8.0_112/bin/wsimport \
+  --slave /usr/bin/xjc xjc /opt/jdk1.8.0_112/bin/xjc
